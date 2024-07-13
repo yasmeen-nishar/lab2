@@ -22,4 +22,5 @@ jobs:
     runs-on: ubuntu-latest    
     steps:
      - name: Printing Custom Message
-      - run: echo ${{input.custom_message}}
+       run: echo ${{ inputs.custom_message }}
+       
